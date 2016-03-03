@@ -1,0 +1,230 @@
+@import "fonts.css";
+html {}
+
+body {
+    .container {
+        padding: 0;
+    }
+    background: #eee;
+    div[class*=col-] {
+        border: 0px dotted #000;
+        box-sizing: border-box;
+    }
+    .TopNav {
+        height: 70px;
+        width: 100%;
+        background: #F9F9F9;
+        border-bottom: 1px solid #000;
+        a.logo {
+            font: normal 3em/1.5 RobotoBold, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-left: 20px;
+            color: #58595b;
+            &:hover {
+                color: #58595b;
+                opacity: 1;
+            }
+        }
+        ul {
+            margin: 15px 0;
+            list-style: none;
+            height: 40px;
+        }
+        li {
+            height: 40px;
+            float: right;
+            //                margin:0 0 0 30px;
+        }
+        .marked {
+            border: 1px solid #23A698;
+            box-sizing: border-box;
+            border-radius: 4px;
+            &:hover {
+                background: #23A698;
+                opacity: 1;
+                color: #fff;
+            }
+        }
+        a {
+            text-transform: uppercase;
+            color: #58595b;
+            font: normal 1.2em/2.2 RobotoMedium, sans-serif;
+            margin-left: 0px;
+            letter-spacing: 1px;
+            display: block;
+            height: 40px;
+            opacity: 1;
+            float: left;
+            padding: 0 13px;
+            &:hover {
+                text-decoration: none;
+                opacity: 0.8;
+                color: #03B794;
+                transition: all 0.5s;
+            }
+        }
+    }
+    
+    #hidden_overlay {
+        display: none;
+      
+        width: 100%;
+        background: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #hidden_howTo {
+        display: none;
+        height: 760px;
+        width: 100%;
+        background: #03B794;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #hidden_login {
+        display: none;
+        height: 760px;
+        width: 100%;
+        background: #8DB72B;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #hidden_registr {
+        display: none;
+        height: 760px;
+        width: 100%;
+        background: #B34EE9;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    div.block1 {
+        width: 100%;
+        background: #2F4960 url(../img/bg.png);
+        height: 750px;
+        .first {
+            margin-right: 7em;
+        }
+    }
+}
+
+div.block2 {
+    width: 100%;
+    //    height: 750px;
+    padding: 70px 0 100px 0;
+    background: #eee;
+    border-bottom: 1px solid #DEDEDE;
+    a.blockTitle {
+        display: block;
+        //        padding-left: 38px;
+        //        background: url(../img/sprite.png) no-repeat;
+        h3 {
+            color: #138F77;
+            //            font: normal 1.5em/1 RobotoRegular, sans-serif;
+            //                font: 400 2em/2 BebasBold,sans-serif;
+            font: normal 1.6em/1.2 RobotoMedium, sans-serif;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        &:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        &:visited {
+            text-decoration: none;
+        }
+        &:active {
+            text-decoration: none;
+        }
+        &:link {
+            text-decoration: none;
+        }
+    }
+    .sceenshot {
+        padding: 0;
+        img {
+            border: 1px solid rgba(0, 0, 0, .1);
+            padding: 0;
+        }
+    }
+    .sceenshot,
+    .text {
+        margin-top: 10em;
+        h2 {
+            font: normal 3em/0.7 RobotoLight, sans-serif;
+            text-transform: uppercase;
+        }
+        p.lead {
+            margin-top: 45px;
+        }
+    }
+}
+
+div.block3 {
+    padding: 100px 0 200px 0;
+    width: 100%;
+    background: #fff;
+    height: 750px;
+    overflow: hidden;
+    h2 {
+        font: normal 2.2em/0.7 RobotoLight, sans-serif;
+        text-transform: uppercase;
+    }
+    a.recal {
+        padding-right: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        display: block;
+        height: 120px;
+        width: 100%;
+        border-bottom: 1px dotted #DFE7ED;
+        box-sizing: border-box;
+        overflow: hidden;
+        &:hover {
+            text-decoration: none;
+            background: #F6F9FA;
+            color: red;
+        }
+        .picsBlock {
+            height: 120px;
+            width: 60px;
+            float: left;
+        }
+        .textBlock {
+            height: 110px;
+            width: 100%;
+            span.title {
+                display: block;
+                font: normal 1.5em/1 RobotoLMedium, sans-serif;
+                padding-left: 20px;
+                overflow: hidden;
+                max-height: 45px;
+            }
+            span.text {
+                display: block;
+                padding: 10px 5px 20px 20px;
+                overflow: hidden;
+                color: #000;
+                max-height: 70px;
+            }
+        }
+        //            img.pics {
+        //                height: 60px;
+        //                width: 60px;
+        //                position: absolute;
+        //                left: 0;
+        //                top: 0;
+        //            }
+    }
+}
+
+div.block4 {
+    width: 100%;
+    background: #484848;
+    height: 100px;
+}

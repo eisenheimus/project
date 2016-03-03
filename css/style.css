@@ -1,0 +1,208 @@
+@import "fonts.css";
+body {
+  background: #eee;
+}
+body .container {
+  padding: 0;
+}
+body div[class*=col-] {
+  border: 0px dotted #000;
+  box-sizing: border-box;
+}
+body .TopNav {
+  height: 70px;
+  width: 100%;
+  background: #F9F9F9;
+  border-bottom: 1px solid #000;
+}
+body .TopNav a.logo {
+  font: normal 3em/1.5 RobotoBold, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  color: #58595b;
+}
+body .TopNav a.logo:hover {
+  color: #58595b;
+  opacity: 1;
+}
+body .TopNav ul {
+  margin: 15px 0;
+  list-style: none;
+  height: 40px;
+}
+body .TopNav li {
+  height: 40px;
+  float: right;
+}
+body .TopNav .marked {
+  border: 1px solid #23A698;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+body .TopNav .marked:hover {
+  background: #23A698;
+  opacity: 1;
+  color: #fff;
+}
+body .TopNav a {
+  text-transform: uppercase;
+  color: #58595b;
+  font: normal 1.2em/2.2 RobotoMedium, sans-serif;
+  margin-left: 0px;
+  letter-spacing: 1px;
+  display: block;
+  height: 40px;
+  opacity: 1;
+  float: left;
+  padding: 0 13px;
+}
+body .TopNav a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #03B794;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+body #hidden_overlay {
+  display: none;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+body #hidden_howTo {
+  display: none;
+  height: 760px;
+  width: 100%;
+  background: #03B794;
+  margin: 0;
+  padding: 0;
+}
+body #hidden_login {
+  display: none;
+  height: 760px;
+  width: 100%;
+  background: #8DB72B;
+  margin: 0;
+  padding: 0;
+}
+body #hidden_registr {
+  display: none;
+  height: 760px;
+  width: 100%;
+  background: #B34EE9;
+  margin: 0;
+  padding: 0;
+}
+body div.block1 {
+  width: 100%;
+  background: #2f4960 url(../img/bg.png);
+  height: 750px;
+}
+body div.block1 .first {
+  margin-right: 7em;
+}
+div.block2 {
+  width: 100%;
+  padding: 70px 0 100px 0;
+  background: #eee;
+  border-bottom: 1px solid #DEDEDE;
+}
+div.block2 a.blockTitle {
+  display: block;
+}
+div.block2 a.blockTitle h3 {
+  color: #138F77;
+  font: normal 1.6em/1.2 RobotoMedium, sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+div.block2 a.blockTitle:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+div.block2 a.blockTitle:visited {
+  text-decoration: none;
+}
+div.block2 a.blockTitle:active {
+  text-decoration: none;
+}
+div.block2 a.blockTitle:link {
+  text-decoration: none;
+}
+div.block2 .sceenshot {
+  padding: 0;
+}
+div.block2 .sceenshot img {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+div.block2 .sceenshot,
+div.block2 .text {
+  margin-top: 10em;
+}
+div.block2 .sceenshot h2,
+div.block2 .text h2 {
+  font: normal 3em/0.7 RobotoLight, sans-serif;
+  text-transform: uppercase;
+}
+div.block2 .sceenshot p.lead,
+div.block2 .text p.lead {
+  margin-top: 45px;
+}
+div.block3 {
+  padding: 100px 0 200px 0;
+  width: 100%;
+  background: #fff;
+  height: 750px;
+  overflow: hidden;
+}
+div.block3 h2 {
+  font: normal 2.2em/0.7 RobotoLight, sans-serif;
+  text-transform: uppercase;
+}
+div.block3 a.recal {
+  padding-right: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px dotted #DFE7ED;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+div.block3 a.recal:hover {
+  text-decoration: none;
+  background: #F6F9FA;
+  color: red;
+}
+div.block3 a.recal .picsBlock {
+  height: 120px;
+  width: 60px;
+  float: left;
+}
+div.block3 a.recal .textBlock {
+  height: 110px;
+  width: 100%;
+}
+div.block3 a.recal .textBlock span.title {
+  display: block;
+  font: normal 1.5em/1 RobotoLMedium, sans-serif;
+  padding-left: 20px;
+  overflow: hidden;
+  max-height: 45px;
+}
+div.block3 a.recal .textBlock span.text {
+  display: block;
+  padding: 10px 5px 20px 20px;
+  overflow: hidden;
+  color: #000;
+  max-height: 70px;
+}
+div.block4 {
+  width: 100%;
+  background: #484848;
+  height: 100px;
+}

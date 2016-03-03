@@ -1,0 +1,100 @@
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.navbar-default {
+  margin-top: 30px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: #fff;
+  font: normal 1.2em/0.7 RobotoBold, sans-serif;
+  margin-left: 0px;
+  letter-spacing: 1px;
+  display: block;
+  height: 40px;
+  opacity: 1;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-toggle {
+  border: none;
+}
+a.navbar-brand {
+  font: normal 2.6em/0.1 RobotoBold, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+a.navbar-brand:hover {
+  color: #fff !important;
+}
+.jumbotron {
+  background: transparent;
+  margin-top: 10%;
+}
+.jumbotron h1,
+.jumbotron h3 {
+  color: #fff;
+  font-family: RobotoBold, sans-serif;
+}
+.panel-body {
+  padding: 5px;
+}
+.panel {
+  width: 100%;
+  margin-top: 5em auto !important;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+button.btn,
+button.btn-default {
+  background: #03B794;
+  border-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: RobotoLight, sans-s1erif;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+  height: 50px;
+  border: 0px solid transparent;
+}
+button.btn:hover,
+button.btn-default:hover {
+  background: #04E4B7;
+  color: #fff;
+  transition: all 0.5s;
+  border: 0px solid transparent;
+  border: none;
+  margin-left: 0px;
+}
+select.form-control,
+select.ui-autocomplete-input,
+input.form-control,
+input.ui-autocomplete-input {
+  height: 50px;
+  color: #AFAFAF;
+  text-transform: uppercase;
+}
+select.form-control option,
+select.ui-autocomplete-input option,
+input.form-control option,
+input.ui-autocomplete-input option {
+  padding: 2px 20px 2px 0;
+  color: #9D9D9D;
+  text-transform: uppercase;
+  padding: 15px;
+}
