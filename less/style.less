@@ -65,16 +65,13 @@ body {
             }
         }
     }
-    
     #hidden_overlay {
         display: none;
-      
         width: 100%;
         background: #fff;
         margin: 0;
         padding: 0;
     }
-    
     #hidden_howTo {
         display: none;
         height: 760px;
@@ -83,7 +80,6 @@ body {
         margin: 0;
         padding: 0;
     }
-    
     #hidden_login {
         display: none;
         height: 760px;
@@ -92,7 +88,6 @@ body {
         margin: 0;
         padding: 0;
     }
-    
     #hidden_registr {
         display: none;
         height: 760px;
@@ -101,8 +96,6 @@ body {
         margin: 0;
         padding: 0;
     }
-    
-    
     div.block1 {
         width: 100%;
         background: #2F4960 url(../img/bg.png);
@@ -169,8 +162,12 @@ div.block3 {
     padding: 100px 0 200px 0;
     width: 100%;
     background: #fff;
-    height: 750px;
+    min-height: 750px;
     overflow: hidden;
+               
+ 
+    
+
     h2 {
         font: normal 2.2em/0.7 RobotoLight, sans-serif;
         text-transform: uppercase;
@@ -213,14 +210,44 @@ div.block3 {
                 max-height: 70px;
             }
         }
-        //            img.pics {
-        //                height: 60px;
-        //                width: 60px;
-        //                position: absolute;
-        //                left: 0;
-        //                top: 0;
-        //            }
+
+     
     }
+    
+            div.reviewBlock {
+                padding: 10px 5px;
+                margin-bottom: 10px;
+                position: relative;
+                height: 80px;
+                width: 100%;                
+                box-sizing: border-box;
+                overflow: hidden;
+                
+                h4 {
+                    margin: 0 0 7px 0;
+                }
+                
+                span{
+                    font: bold 1em/1 RobotoLight, sans-serif;
+                }
+//                background: #DBDBDB;
+                border-bottom: 1px dotted #DFE7ED;
+                &:nth-child(odd){
+//                    color: #888888;
+                }
+                
+                   
+                img  {
+                    float: left;
+                    margin-right: 20px;
+                }
+                
+           
+            }
+    
+    
+    
+    
 }
 
 div.block4 {

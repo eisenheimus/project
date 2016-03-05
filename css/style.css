@@ -155,7 +155,7 @@ div.block3 {
   padding: 100px 0 200px 0;
   width: 100%;
   background: #fff;
-  height: 750px;
+  min-height: 750px;
   overflow: hidden;
 }
 div.block3 h2 {
@@ -200,6 +200,26 @@ div.block3 a.recal .textBlock span.text {
   overflow: hidden;
   color: #000;
   max-height: 70px;
+}
+div.block3 div.reviewBlock {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-bottom: 1px dotted #DFE7ED;
+}
+div.block3 div.reviewBlock h4 {
+  margin: 0 0 7px 0;
+}
+div.block3 div.reviewBlock span {
+  font: bold 1em/1 RobotoLight, sans-serif;
+}
+div.block3 div.reviewBlock img {
+  float: left;
+  margin-right: 20px;
 }
 div.block4 {
   width: 100%;
