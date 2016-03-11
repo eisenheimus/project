@@ -13,17 +13,7 @@ $( document ).ready(function() {
       
 //       $("#hidden_howTo").animate( { height:"760px"}, 1000 ) ;
       
-    $("#howto").click(function(){
-        
-        $("#hidden_login").slideUp(); 
-        $("#hidden_registr").slideUp(); 
-        
-        
-        
-        $("#hidden_howTo").slideToggle("slow");
-        
-        
-    });
+
     
     $("#login").click(function(){
         $("#hidden_howTo").slideUp();
@@ -40,13 +30,24 @@ $( document ).ready(function() {
     });
 
     
-   
+  
+    $("#b2one").hover(function () {
+       $("#screen").attr("src", "img/slide/1.png");
+   });
+
+   $("#b2two").hover(function () {
+       $("#screen").attr("src", "img/slide/2.png");
+   });
+
+   $("#b2tree").hover(function () {
+       $("#screen").attr("src", "img/slide/3.png");
+   });
+
+
+   $("#b2four").hover(function () {
+       $("#screen").attr("src", "img/slide/4.png");
     
-    
-    
-    
-    
-    
+   });
     
     
     

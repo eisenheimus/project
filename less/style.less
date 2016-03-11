@@ -112,14 +112,13 @@ div.block2 {
     padding: 70px 0 100px 0;
     background: #eee;
     border-bottom: 1px solid #DEDEDE;
+    
+   
+    
     a.blockTitle {
         display: block;
-        //        padding-left: 38px;
-        //        background: url(../img/sprite.png) no-repeat;
         h3 {
             color: #138F77;
-            //            font: normal 1.5em/1 RobotoRegular, sans-serif;
-            //                font: 400 2em/2 BebasBold,sans-serif;
             font: normal 1.6em/1.2 RobotoMedium, sans-serif;
             letter-spacing: 0.5px;
             text-transform: uppercase;
@@ -145,16 +144,69 @@ div.block2 {
             padding: 0;
         }
     }
+    .block2title {
+        h2 {
+            //            font: bold 3em/0.7 RobotoLight, sans-serif;
+            //            text-transform: uppercase;
+            
+             color: #58595b;
+            font: bold 2.3em AzoftSansBold, sans-serif;            
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            
+        }
+    }
+    
+    
+    
     .sceenshot,
     .text {
-        margin-top: 10em;
-        h2 {
-            font: normal 3em/0.7 RobotoLight, sans-serif;
-            text-transform: uppercase;
+        margin-top: 6em;
+        h4 {
+           font: normal 1.7em AzoftSansBold, sans-serif;
+            color: #58595b;
+ letter-spacing: 1px;
         }
         p.lead {
             margin-top: 45px;
         }
+        ul {
+            list-style: none;
+            margin: 40px 0 0 0;
+            padding: 0;
+            li {
+                margin: 0 0 30px 0;
+                a { 
+                    height: 70px;
+                    padding-left: 60px;
+                    position: relative;
+                    text-decoration: none;
+                    display: block;
+                    background: url(../img/list/list.png) no-repeat;
+                    color: #000;
+                    &:hover {
+                        text-decoration: none;
+                        color: #666 !important;
+                       
+                        
+                    }
+                }
+            }
+        }
+        span.title {
+            display: block;
+            font: normal 1.5em/1.5 RobotoMedium, sans-serif;
+            
+            
+         
+        }
+        span.description {
+            display: block;
+            font: normal 0.9em/1.5 Robotolight, sans-serif;
+            color: #666;
+        }
+        
+
     }
 }
 
@@ -164,10 +216,6 @@ div.block3 {
     background: #fff;
     min-height: 750px;
     overflow: hidden;
-               
- 
-    
-
     h2 {
         font: normal 2.2em/0.7 RobotoLight, sans-serif;
         text-transform: uppercase;
@@ -210,48 +258,54 @@ div.block3 {
                 max-height: 70px;
             }
         }
-
-     
     }
-    
-            div.reviewBlock {
-                padding: 10px 5px;
-                margin-bottom: 10px;
-                position: relative;
-                height: 80px;
-                width: 100%;                
-                box-sizing: border-box;
-                overflow: hidden;
-                
-                h4 {
-                    margin: 0 0 7px 0;
-                }
-                
-                span{
-                    font: bold 1em/1 RobotoLight, sans-serif;
-                }
-//                background: #DBDBDB;
-                border-bottom: 1px dotted #DFE7ED;
-                &:nth-child(odd){
-//                    color: #888888;
-                }
-                
-                   
-                img  {
-                    float: left;
-                    margin-right: 20px;
-                }
-                
-           
-            }
-    
-    
-    
-    
+    div.reviewBlock {
+        padding: 10px 5px;
+        margin-bottom: 10px;
+        position: relative;
+        height: 80px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        h4 {
+            margin: 0 0 7px 0;
+        }
+        span {
+            font: bold 1em/1 RobotoLight, sans-serif;
+        }
+        //                background: #DBDBDB;
+        border-bottom: 1px dotted #DFE7ED;
+        &:nth-child(odd) {
+            //                    color: #888888;
+        }
+        img {
+            float: left;
+            margin-right: 20px;
+        }
+    }
 }
 
 div.block4 {
     width: 100%;
     background: #484848;
     height: 100px;
+    
+    ul{
+        margin: 35px 0 0 0;
+    }
+    
+    .footerMnu ul li a{
+        color: #fff;
+        font: normal 1em/0.7 RobotoBOLD, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        
+        &:hover {
+            text-decoration: none;
+            color: #000;
+            transition: all 0.5s;
+        }
+    }
+    
+    
 }

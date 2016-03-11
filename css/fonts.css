@@ -49,3 +49,75 @@
     font-style: normal;
     font-weight: normal;
 }
+
+
+@font-face {
+    font-family: "AzoftSansRegular";
+    src: url("../fonts/AzoftSansRegular/AzoftSansRegular.eot");
+    src: url("../fonts/AzoftSansRegular/AzoftSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AzoftSansRegular/AzoftSansRegular.woff") format("woff"),
+    url("../fonts/AzoftSansRegular/AzoftSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "AzoftSansBold"; */
+@font-face {
+    font-family: "AzoftSansBold";
+    src: url("../fonts/AzoftSansBold/AzoftSansBold.eot");
+    src: url("../fonts/AzoftSansBold/AzoftSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AzoftSansBold/AzoftSansBold.woff") format("woff"),
+    url("../fonts/AzoftSansBold/AzoftSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "AzoftSansItalic"; */
+@font-face {
+    font-family: "AzoftSansItalic";
+    src: url("../fonts/AzoftSansItalic/AzoftSansItalic.eot");
+    src: url("../fonts/AzoftSansItalic/AzoftSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AzoftSansItalic/AzoftSansItalic.woff") format("woff"),
+    url("../fonts/AzoftSansItalic/AzoftSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "AzoftSansBoldItalic"; */
+@font-face {
+    font-family: "AzoftSansBoldItalic";
+    src: url("../fonts/AzoftSansBoldItalic/AzoftSansBoldItalic.eot");
+    src: url("../fonts/AzoftSansBoldItalic/AzoftSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AzoftSansBoldItalic/AzoftSansBoldItalic.woff") format("woff"),
+    url("../fonts/AzoftSansBoldItalic/AzoftSansBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ProximaNovaRegular"; */
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ProximaNovaBlack"; */
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
